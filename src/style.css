@@ -1,0 +1,258 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/iconfont/material-icons.min.css");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style-type: none;
+}
+img {
+  vertical-align: top;
+  font-size: 0;
+  border: 0;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.indent {
+  display: block;
+  text-indent: -9999px;
+}
+.logo {
+  width: 22px;
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 13px;
+}
+
+.header,
+.footer {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  background-color: inherit;
+}
+/* header */
+.header {
+  padding-bottom: 8px;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #eee;
+  z-index: 99;
+}
+.header ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header ul li {
+  padding: 0 15px;
+}
+.left-btn {
+  width: 50px;
+  cursor: pointer;
+}
+.right-btn {
+  width: 50px;
+  cursor: pointer;
+}
+/* footer */
+.footer {
+  position: sticky;
+  bottom: 0;
+  border-top: 1px solid #eee;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul li {
+  padding: 0 15px;
+}
+.home-btn {
+  color: #fff;
+}
+.plus-btn {
+  width: 80px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+  padding-top: 12px;
+}
+.myProfile {
+  background-image: url(./assets/me.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.inputfile {
+  display: none;
+}
+.input-plus {
+  cursor: pointer;
+}
+
+/* container */
+.container {
+}
+.upload-image {
+  width: 100%;
+  height: 450px;
+  background: cornflowerblue;
+  background-size: cover;
+}
+.filters {
+  overflow-x: scroll;
+  /* white-space: nowrap; */
+  display: flex;
+  gap: 6px;
+  padding-left: 20px;
+}
+.filter-1 {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  margin: 10px 10px 10px auto;
+  padding: 8px;
+  display: inline-block;
+  color: white;
+  background-size: cover;
+}
+.filters::-webkit-scrollbar {
+  height: 5px;
+}
+.filters::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.filters::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+.filters::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* FilterBox */
+.filter-box {
+  margin: 20px 0;
+  width: 100px;
+  height: 140px;
+}
+.filter-name {
+  font-size: 12px;
+  text-align: center;
+  color: #e8e8e8;
+}
+.filter-item {
+  border-radius: 6px;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px 10px auto;
+  padding: 8px;
+  display: inline-block;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.write-box {
+  border: none;
+  width: 90%;
+  height: 100px;
+  padding: 15px;
+  margin: auto;
+  display: block;
+  outline: none;
+}
+
+/* post */
+.post {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.post-header {
+  height: 40px;
+  display: flex;
+  padding: 30px 15px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.profile {
+  background-image: url("https://picsum.photos/100?random=0");
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  border-radius: 50%;
+}
+.profile-name {
+  display: block;
+  font-size: 14px;
+}
+.post-body {
+  background-image: url("https://picsum.photos/600?random=0");
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+}
+.post-content {
+  padding: 15px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.date {
+  font-size: 12px;
+  color: grey;
+}
+
+/* 팔로워 */
+.follower-wrap {
+  padding: 10px;
+}
+.follower-search {
+  padding: 0 15px;
+}
+.serach-bar {
+  width: 100%;
+  position: relative;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+.search {
+  width: 100%;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.f-profile {
+  background-image: url("https://picsum.photos/100?random=0");
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  border-radius: 50%;
+}
