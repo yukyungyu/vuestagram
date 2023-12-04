@@ -41,7 +41,6 @@ export default {
       axios.get("/follower.json").then((result) => {
         followers.value = result.data;
         followersOrg.value = [...result.data];
-        // console.log(followersOrg.value.length);
       });
     });
 

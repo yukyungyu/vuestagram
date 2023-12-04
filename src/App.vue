@@ -2,7 +2,7 @@
   <!-- header -->
   <div class="header">
     <ul v-if="tabNum == 0 || tabNum == 4">
-      <li>Vuestagram</li>
+      <router-link to="/"><li>Vuestagram</li></router-link>
     </ul>
     <ul v-else>
       <li class="left-btn" @click="tabNum--">
@@ -28,7 +28,7 @@
   <div class="footer">
     <ul>
       <li clas="home-btn" @click="tabNum = 0">
-        <router-link to="/MyPage">
+        <router-link to="/">
           <font-awesome-icon icon="fa-solid fa-house" />
         </router-link>
       </li>
