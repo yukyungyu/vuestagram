@@ -2,9 +2,9 @@
 
 [https://yukyungyu.github.io/vuestagram/](https://vuestagram-fa2fb.firebaseapp.com/)
 
-![뷰스타피드](https://github.com/yukyungyu/vuestagram/assets/141790554/11e8409b-46a7-4ce6-a315-2826b5780494)
-![뷰스타업로드](https://github.com/yukyungyu/vuestagram/assets/141790554/36f48205-3721-4f59-abca-9924a0e2f4d6)
-![뷰스타발행](https://github.com/yukyungyu/vuestagram/assets/141790554/bf1f3c18-2c98-41b5-8d2f-52094c369625)
+![뷰스타피드](https://github.com/yukyungyu/vuestagram/assets/141790554/0e005656-0270-4b63-9c25-24c04f905277)
+![뷰스타업로드](https://github.com/yukyungyu/vuestagram/assets/141790554/8b8c3ff8-04c5-423e-a626-1aa18f62aec7)
+![뷰스타발행](https://github.com/yukyungyu/vuestagram/assets/141790554/250abdfe-bd21-4fe6-a1b3-fd8e0410cada)
 
 
 ## Project setup
